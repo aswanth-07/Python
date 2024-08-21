@@ -58,18 +58,16 @@ while True:
     
     # using loops to recieve money
     while total_money < item_price:
-        money = float(
-            input(
+        money =input(
                 f"Item {customer_choice} costs ${item_price}. Insert money (or type 'cancel' to cancel the transaction): "
             )
-        )
-        total_money += money
         
-        # Termination the transaction if the user enters 'cancel'
+        # Terminating the transaction if the user enters 'cancel'
         if money == "cancel":  
             print("Transaction cancelled.")
             break
-        if total_money >= item_price:
+        if total_money+float(money) >= item_price:
+            total_money += money
             change = total_money - item_price
             print(f"Dispensing item {customer_choice}.")
             if change > 0:
