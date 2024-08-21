@@ -4,8 +4,9 @@ Welcome to the Python repository! This repository contains a collection of basic
 ### Contents
 Projects: Each project is organized in its own directory with a README file that explains the project, its purpose, and how to run the code.\
 Scripts: Standalone Python scripts that demonstrate specific programming concepts or solve particular problems.
-### License
-This repository is licensed under the MIT License. Feel free to use the code in your own projects.
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
 
 ### Contact
 If you have any questions or suggestions, feel free to open an issue or contact me directly.
